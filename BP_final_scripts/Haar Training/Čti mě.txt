@@ -1,0 +1,10 @@
+1.Nahrej pozitivní obrázky do training/positive/rawdata
+2.Spust training/positive/acknowledge.py
+3.Nahrej negativní obrázky do training/negative
+4.Spust training/negative create_list.py
+5.Nastav training/samples_creation.bat a spus jej
+6.Nastav training/haarTraining.bat a spus jej
+7.Cekej na dokonèení kaskád, ukládají se do training/cascades
+8.Zkopíruj kaskády z training/cascades do cascade2xml/data (celé sloky - jsou èíslované 0-X)
+9.Nakonfiguruj cascade2xml/convert.bat a spus jej (sjednocení kaskád)
+10.Vısledná kaskáda bude ve sloce cascade2xml ve formátu .XML

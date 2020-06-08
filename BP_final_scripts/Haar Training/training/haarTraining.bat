@@ -1,0 +1,1 @@
+haartraining.exe -data cascades -vec vector/facevector.vec -bg negative/bg.txt -npos 3000 -nneg 7000 -nstages 20 -mem 16000 -mode ALL -w 20 -h 20 -nonsym -nsplits 2 -maxFalseAlarmRate 0.3 -minHitRate 0.9995
